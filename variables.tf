@@ -105,15 +105,3 @@ variable "alarm_free_memory_threshold" {
 variable "alarm_cpu_credit_balance_threshold" {
   default = "30"
 }
-
-variable "alarm_actions" {
-  type = "list"
-}
-
-variable "ok_actions" {
-  type = "list"
-}
-
-variable "insufficient_data_actions" {
-  type = "list"
-}
